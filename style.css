@@ -1,0 +1,127 @@
+header{
+    background-color: #70a48b;
+    color: white;   
+    padding-top: 1.5em;
+}
+ul{
+    list-style-type: none;
+    margin-left: 2.5em;
+    margin-right:2.5em;
+    margin-bottom: 25px;
+    border: 2px solid white;
+    border-radius: 9px;
+    padding: 18px 20px;
+}
+.parent-container-row{
+    display: flex;
+}
+.child-element{
+    font-size: 10pt;
+    margin-left: 11px;
+    padding: 4px;
+}
+.donation{
+    background-color: #1f211c;
+    border: 2px solid #1f211c;
+    border-radius: 8px;
+    font-size: 9pt;
+}
+.the-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: #70a48b;
+    color: white;
+    border: 2px solid #1f211c;
+    font-weight: bold;
+    text-align: left;
+}
+.the-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.gr-button{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 9px;
+}
+.detroit-button{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:8px;
+    margin-top: -6px;
+    padding: 20px;
+    border-radius: 9px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #70a48b;
+}
+p{
+    margin-left: 10px;
+}
+h2{
+    margin-left: 10px;}
+section{
+    background-color: white;
+}
+.firstsection{
+    margin: -7px;
+    padding: 4%;  
+    padding-right: 40px; 
+}
+.secondsection{
+    margin: -7px;
+    padding: 4%;
+    padding-top: 15%;
+    padding-right: 40px;
+    padding-bottom: 9%;
+}
+.image-grid{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 10px;
+    justify-content: space-around;
+    margin-left: -15px;
+    padding-bottom: 15px;
+}
+footer{
+    background-color: #70a48b;
+    margin-left: -7px;
+    margin-right: -7px;
+    padding-left: 4px;
+}
+@media screen and (min-width: 768px) {
+    .the-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-img{
+        margin-left: 2%;
+        padding-bottom: 3%;
+    }
+    .firstsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondsection{
+        display: flex;
+        flex-direction: column;
+        padding-top: 39px;
+    }
+    .wholesection{
+        display: flex;
+        flex-direction: row;
+    }
+    .image-grid{
+        display: inline-grid;
+        grid-template-columns: repeat(3, 0fr)
+    }
+    .friends-header{
+        margin-left: -10px;
+    }
+    }
